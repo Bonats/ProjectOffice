@@ -32,7 +32,57 @@ Represents a strongly typed in-memory cache of data.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:Office.OfficeDataSet.AffDisc_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffDmg_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffInc_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffLoss_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffSupport_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:Office.OfficeDataSet.Accounts_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffDisc_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffDmg_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffInc_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffLoss_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffSupport_TblRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -42,7 +92,57 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member>
+<member name="T:Office.OfficeDataSet.AffDisc_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffDmg_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffInc_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffLoss_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.AffSupport_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:Office.OfficeDataSetTableAdapters.Accounts_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.AffDisc_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.AffDmg_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.AffInc_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.AffLoss_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.AffSupport_TblTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

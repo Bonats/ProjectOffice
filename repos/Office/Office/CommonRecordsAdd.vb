@@ -1,6 +1,12 @@
 ﻿Public Class CommonRecordsAdd
     Dim choice As Integer
+    Dim user As String
     Private Sub CommonRecords_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'OfficeDataSet.AffLoss_Tbl' table. You can move, or remove it, as needed.
+        Me.AffLoss_TblTableAdapter.Fill(Me.OfficeDataSet.AffLoss_Tbl)
+        user = login.user
+        TextBox3.Text = login.user
+        TextBox3.Enabled = False
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -21,7 +27,11 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-
+        If choice = 1 Then
+            AffLoss_TblTableAdapter.Insert(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox5.Text, TextBox6.Text, Date.Now)
+            AffLoss_TblTableAdapter.Fill(OfficeDataSet.AffLoss_Tbl)
+            MsgBox("Success")
+        End If
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -50,5 +60,9 @@
         TextBox2.Visible() = True
         Label2.Text = "Income:"
         choice = 5
+    End Sub
+
+    Private Sub BindingSource1_CurrentChanged(sender As Object, e As EventArgs)
+
     End Sub
 End Class

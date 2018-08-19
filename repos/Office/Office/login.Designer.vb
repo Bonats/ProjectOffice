@@ -22,6 +22,7 @@ Partial Class login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -33,6 +34,11 @@ Partial Class login
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.OfficeDataSet = New Office.OfficeDataSet()
+        Me.AccountsTblBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Accounts_TblTableAdapter = New Office.OfficeDataSetTableAdapters.Accounts_TblTableAdapter()
+        CType(Me.OfficeDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AccountsTblBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button3
@@ -82,8 +88,10 @@ Partial Class login
         '
         Me.TextBox2.Location = New System.Drawing.Point(572, 51)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(91, 20)
         Me.TextBox2.TabIndex = 7
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'MonthCalendar1
         '
@@ -129,6 +137,20 @@ Partial Class login
         Me.Button1.Text = "Add Records"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'OfficeDataSet
+        '
+        Me.OfficeDataSet.DataSetName = "OfficeDataSet"
+        Me.OfficeDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'AccountsTblBindingSource
+        '
+        Me.AccountsTblBindingSource.DataMember = "Accounts_Tbl"
+        Me.AccountsTblBindingSource.DataSource = Me.OfficeDataSet
+        '
+        'Accounts_TblTableAdapter
+        '
+        Me.Accounts_TblTableAdapter.ClearBeforeFill = True
+        '
         'login
         '
         Me.AllowDrop = True
@@ -159,6 +181,8 @@ Partial Class login
         Me.Text = "Law Office Management System"
         Me.TopMost = True
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.OfficeDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AccountsTblBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -174,4 +198,7 @@ Partial Class login
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents OfficeDataSet As OfficeDataSet
+    Friend WithEvents AccountsTblBindingSource As BindingSource
+    Friend WithEvents Accounts_TblTableAdapter As OfficeDataSetTableAdapters.Accounts_TblTableAdapter
 End Class

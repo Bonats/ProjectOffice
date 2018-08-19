@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CommonRecordsAdd
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class CommonRecordsAdd
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -43,6 +44,11 @@ Partial Class CommonRecordsAdd
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.OfficeDataSet = New Office.OfficeDataSet()
+        Me.AffLossTblBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.AffLoss_TblTableAdapter = New Office.OfficeDataSetTableAdapters.AffLoss_TblTableAdapter()
+        CType(Me.OfficeDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AffLossTblBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -194,6 +200,7 @@ Partial Class CommonRecordsAdd
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(151, 20)
         Me.TextBox6.TabIndex = 17
+        Me.TextBox6.Text = "2018"
         '
         'Button7
         '
@@ -222,6 +229,20 @@ Partial Class CommonRecordsAdd
         Me.ComboBox1.Size = New System.Drawing.Size(151, 21)
         Me.ComboBox1.TabIndex = 20
         Me.ComboBox1.Visible = False
+        '
+        'OfficeDataSet
+        '
+        Me.OfficeDataSet.DataSetName = "OfficeDataSet"
+        Me.OfficeDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'AffLossTblBindingSource
+        '
+        Me.AffLossTblBindingSource.DataMember = "AffLoss_Tbl"
+        Me.AffLossTblBindingSource.DataSource = Me.OfficeDataSet
+        '
+        'AffLoss_TblTableAdapter
+        '
+        Me.AffLoss_TblTableAdapter.ClearBeforeFill = True
         '
         'CommonRecordsAdd
         '
@@ -263,6 +284,8 @@ Partial Class CommonRecordsAdd
         Me.Text = "Form1"
         Me.TopMost = True
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.OfficeDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AffLossTblBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -289,4 +312,7 @@ Partial Class CommonRecordsAdd
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents OfficeDataSet As OfficeDataSet
+    Friend WithEvents AffLossTblBindingSource As BindingSource
+    Friend WithEvents AffLoss_TblTableAdapter As OfficeDataSetTableAdapters.AffLoss_TblTableAdapter
 End Class
