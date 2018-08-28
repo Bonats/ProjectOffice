@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Office", "Office\Office.vbproj", "{30EE883F-4986-4489-8976-AC8783650C2F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{703EBB45-A61F-4105-B998-0D31AA1CB0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EE883F-4986-4489-8976-AC8783650C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EE883F-4986-4489-8976-AC8783650C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EE883F-4986-4489-8976-AC8783650C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EE883F-4986-4489-8976-AC8783650C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703EBB45-A61F-4105-B998-0D31AA1CB0D2}.Debug|Any CPU.ActiveCfg = Debug
+		{703EBB45-A61F-4105-B998-0D31AA1CB0D2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A7BECC-F437-4E94-B12C-9D06344A61DD}
+	EndGlobalSection
+EndGlobal

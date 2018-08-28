@@ -1,0 +1,331 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Office
+</name>
+</assembly>
+<members>
+<member name="T:Office.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Office.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Office.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Accounts_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDisc_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDmg_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffInc_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffLoss_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffSupport_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Daily_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Reminder_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_ContractOfLease_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedAbsLand_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedSaleMotor_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_Extrajudicial_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_MOA_TblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Accounts_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDisc_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDmg_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffInc_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffLoss_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffSupport_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Daily_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Reminder_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_ContractOfLease_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedAbsLand_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedSaleMotor_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_Extrajudicial_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_MOA_TblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Accounts_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDisc_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffDmg_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffInc_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffLoss_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Com_AffSupport_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Daily_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Reminder_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_ContractOfLease_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedAbsLand_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_DeedSaleMotor_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_Extrajudicial_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSet.Sen_MOA_TblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Accounts_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Com_AffDisc_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Com_AffDmg_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Com_AffInc_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Com_AffLoss_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Com_AffSupport_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Daily_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Reminder_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Sen_ContractOfLease_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Sen_DeedAbsLand_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Sen_DeedSaleMotor_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Sen_Extrajudicial_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.Sen_MOA_TblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Office.OfficeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Office.OfficeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Office.OfficeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Office.OfficeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Office.OfficeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Office.OfficeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Office.OfficeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Office.OfficeDataSetTableAdapters.TableAdapterManager.UpdateAll(Office.OfficeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Office.OfficeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
